@@ -1,0 +1,161 @@
+html {
+    background-color: rgb(223, 223, 223);
+}
+
+body {
+    font-family: "tangerine";
+    margin: 0 10%;
+    font-size: 22px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: "teko", sans-serif;
+}
+
+h2 {
+    font-family: "teko";
+    font-size: 38px;
+    font-weight: 300;
+}
+
+button {
+    background-color: #FFFFFF;
+    outline-color: #000;
+    color: #000000;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 20px 30%;
+    padding: 20px 20px;
+    width: 40%;
+    text-transform: uppercase;
+    font-family: "teko", sans-serif;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.invert-1 button:hover {
+    background-image: linear-gradient(to right, #FFC300, #1021D2, #C70039, #DAF7A6);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.invert-2 button:hover {
+    font-family: "zen loop", cursive;
+    font-size: 32px;
+    min-height: 84.5px;
+}
+
+.invert-3 button:hover {
+    font-style: italic;
+}
+
+#home {
+    background-color: #FFFFFF;
+    outline-color: #000;
+    color: #000000;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "teko", sans-serif;
+    position: relative;
+    margin: 0 auto; 
+    padding: 5px 5px;
+    width: fit-content;
+}
+
+#home:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.container {
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100%;
+}
+
+.orange {
+    background-color: #FFC300;
+    color: #000;
+}
+
+.blue {
+    background-color: #1021D2;
+    color: #fff;
+}
+
+.red {
+    background-color: #C70039;
+    color: #000;
+}
+
+.green {
+    background-color: #DAF7A6;
+    color: #000;
+}
+
+.fonts-container {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
+.font-label {
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.tangerine {
+    font-family: "tangerine", cursive;
+    font-size: 22px;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.teko {
+    font-family: "teko", sans-serif;
+    font-size: 18px;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.zen-loop {
+    font-family: "zen loop", cursive;
+    font-size: 20px;
+}
+
+#ts {
+    text-align: left;
+}
